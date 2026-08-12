@@ -1,3 +1,9 @@
+# C object files
 *.o
-*.out
-*.exe
+
+# Ignore compiled binaries in exercise directories
+chapter-*/exercises/*
+!chapter-*/exercises/*.c
+
+# VS Code
+.vscode/
